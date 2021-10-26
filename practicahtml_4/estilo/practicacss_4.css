@@ -1,61 +1,78 @@
-
+head{
+   background-color: darkorchid;
+}
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    margin-left: 280px;
-    margin-right: 280px;
+    margin: 0%;
+   
 }
-#cabecera {
-    background-image: url(../imagenes/img_1.jpg.jpg); display: block;
-    height: 70vh;
-    width: 60;
-    margin: 0px;
-    
-    
+nav img{
+    width: 100vw;
+    height: auto;
+  }
+header img{
+    width: 100vw;
+    height: auto;
 }
-head,main{
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 10px;
+
+
+main{
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
 }
+main p{
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+section img{
+     width: 50vw;
+     height: auto;
+   
+}
+ footer img{
+    width: 35vw;
+    height: auto;
+    padding-left: 15%;
+ }
+
 h1 {
     font-weight: lighter;
-    align-self: center;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+  
 }
 
 h2 {
     font-size: 10pt;
-    align-self: center;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    
 }
-#imagen_2{
-    background-image: url(../imagenes/img_2.jpg.jpg);
-   height: 60vh;
-   width: 30;
-}
-#imagen_3{
-    background-image: url(../imagenes/img_3.jpg.jpg);
-   height: 60vh;
-   width: 30;
-}
-#imagen_4{
-    background-image: url(../imagenes/img_4.jpg.jpg);
-   height: 60vh;
-   width: 30;
-}
-#imagen_5{
-    background-image: url(../imagenes/img_5.jpg.jpg);
-   height: 60vh;
-   width: 30;
-}
-#imagen_6{
-    background-image: url(../imagenes/img_6.jpg.jpg);
-   height: 60vh;
-   width: 30;
-}
-#baner{
-    background-image: url(../imagenes/banner-thinkbig.png);
-    height: 15vh;
-    width: 10;
-}
-.alineacion{
-    background-color: blue;
-}
+
+ h3{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+ }
+ .capitular{
+     font-size: 36pt;
+ }
+ #redes_sociales {
+     width: 20%;
+    height: 20%;
+ }
