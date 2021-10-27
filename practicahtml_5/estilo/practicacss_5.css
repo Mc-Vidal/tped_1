@@ -8,13 +8,13 @@ header{
     
 }
 main{
-    background-color: grey;
+    background-color: rgb(189, 187, 187);
 }
 main p{
     padding-bottom: 2%;
 }
 img{
-    display: inline-table;
+    
     width: 25%;
     height: auto;
     filter: opacity(40%)
@@ -22,4 +22,7 @@ img{
 }
 a:hover img{
         filter: opacity(100%)
+}
+section{
+    display: inline;
 }
