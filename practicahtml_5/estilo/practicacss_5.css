@@ -21,8 +21,13 @@ img{
     
 }
 a:hover img{
-        filter: opacity(100%)
+        filter: opacity(100%) 
+        
 }
 section{
     display: inline;
+}
+
+#svg {
+    color: blue;
 }

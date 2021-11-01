@@ -1,0 +1,40 @@
+
+body {
+   
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+h1 {
+    font-weight: lighter;
+    margin-left: 450px; 
+
+}
+
+h2 {
+    color: gray;
+    font-size: 10pt;
+    margin-left: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+li { 
+    color: gray;
+    font-size: 10pt;
+    margin-left: 420px; 
+   
+
+    list-style-type: none;
+}
+
+img{
+    display: block; width: 100%;
+   
+}
+p{
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-block-end: auto;    
+    
+}
