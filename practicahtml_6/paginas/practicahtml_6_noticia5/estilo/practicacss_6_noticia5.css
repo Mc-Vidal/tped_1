@@ -1,0 +1,15 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;   
+}
+body{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
