@@ -23,7 +23,7 @@ nav p{
 }
 .arriba{
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 15%;
     right: 60%;
 }
@@ -40,4 +40,29 @@ nav p{
 }
 div p{
     margin-left: 10%;
+}
+hr{
+    color: black;
+}
+.azul{
+    color: rgb(97, 97, 235);
+    margin-top: 7%;
+    margin-bottom: 7% ;
+    text-decoration: none;
+}
+.caja{
+    background-color:  rgb(97, 97, 235);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+section img{
+    width: 50px;
+    height: auto;
+    margin-top: 0%;
+
+}
+h1{
+    
 }

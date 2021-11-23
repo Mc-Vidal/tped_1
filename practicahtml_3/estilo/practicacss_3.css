@@ -36,11 +36,11 @@ main{
 .final{
     background-color: black;
     
-
+list-style-type: none;  
 }
 li { 
     color: rgb(212, 211, 211);
     font-size: 10pt;
-    list-style-type: none;  
+    
 }   
 
