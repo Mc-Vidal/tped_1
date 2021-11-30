@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(202, 153, 248);
     display: flex;
     flex-wrap: wrap;
     
@@ -7,36 +7,62 @@ body{
 
 }
 section{
-    background-color: rgb(252, 155, 120);
+    background-color: rgb(241, 241, 241);
     width: 30%;
     text-align: center;
     margin-left: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 3%
 }
 
-@font-face{
-    font-family: conforter;
-    src: url(https://fonts.google.com/specimen/Comforter+Brush#standard-styles);
+p{
+    padding: 5%;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
 
 #font1{
-    font-family: conforter;
-   
+    font-family: 'Comforter Brush', cursive;
 }
 
-@font-face {
-    font-family: bebas;
-    src: url(https://fonts.google.com/specimen/Bebas+Neue#standard-styles);
-}
 
 #font2{
-    font-family: bebas;
+    font-family: 'M PLUS 1 Code', sans-serif
 }
 
-@font-face{
-    font-family: praise;
-    src: url(https://fonts.google.com/specimen/Bebas+Neue#standard-styles);
-}
+
 #font3{
-    font-family: praise;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#font4{
+    font-family: 'Estonia', cursive;
+}
+
+
+#font5{
+    font-family: 'Praise', cursive;
+}
+
+
+#font6{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+#font7{
+    font-family: 'Architects Daughter', cursive
+}
+
+
+#font8{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+#font9{
+    font-family: 'Amatic SC', cursive;
 }
