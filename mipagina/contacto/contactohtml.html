@@ -12,23 +12,40 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <nav class="col-12">
-                <a href="../mipagina.html"> inicio</a>
-                <a href="../informacion/informacionhtml.html"> información</a>
-                <a href="../trabajos/trabajoshtml.htmlx"> proyectos</a>
+                <h2 class="cambio">
+                    <a href="../mipagina.html"> Inicio</a>
+                    <a href="../informacion/informacionhtml.html"> ¿Quién soy?</a>
+                    <a href="../trabajos/trabajoshtml.html"> Proyectos</a>
+                </h2>
             </nav>
         </div>
-        <header c class="row" class= "col-12"  >
-            contacto
+        <header class="row">
+            <div class="col-12">
+                <h3>Contacto</h3>
+            </div>
         </header>
-        <main class="row">
-            
-            <section class="col-12">
-                texto
-            </section>
-        </main>
+        <form class="row">
+
+            <div class="col-12">
+                <label for="fname">e-mail</label> <br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="col-12">
+                <label for="lname">company</label> <br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <div class="col-12">
+                <label for="lname">menssage</label> <br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+            <div class="col-12">
+                <input type="submit" value="Submit">
+            </div>
+
+        </form>
     </div>
 </body>
 

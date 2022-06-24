@@ -1,0 +1,13 @@
+nav{
+    background-color: aqua;
+    height: 3em;
+}
+main{
+    background-color: bisque;
+}
+
+@media (min-width: 768px) { 
+    nav {
+        height: 100vh;
+    }
+}

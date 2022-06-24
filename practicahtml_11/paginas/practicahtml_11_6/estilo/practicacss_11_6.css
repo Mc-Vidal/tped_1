@@ -1,0 +1,20 @@
+
+header{
+    background-color: grey;
+}
+main{
+    background-color: honeydew;
+}
+footer{
+    background-color: hotpink;
+}
+section{
+    background-color: yellow;
+}
+aside{
+    background-color: violet;
+}
+
+  @media (min-width: 768px) { 
+            
+}

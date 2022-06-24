@@ -1,0 +1,19 @@
+nav{
+    background-color: bisque;
+}
+aside{
+    background-color: blue;
+}
+main{
+    background-color: coral;
+}
+section{
+    background-color: darkgoldenrod;
+}
+footer{
+    background-color: darkolivegreen;
+}
+
+@media (min-width: 768px) { 
+            
+}

@@ -1,0 +1,19 @@
+header{
+    background-color: cadetblue;
+}
+nav{
+
+    background-color: aqua;
+}
+main{
+    background-color: bisque;
+}
+footer{
+    background-color: coral;
+}
+
+@media (min-width: 768px) { 
+    nav {
+        height: 100vh;
+    }
+}

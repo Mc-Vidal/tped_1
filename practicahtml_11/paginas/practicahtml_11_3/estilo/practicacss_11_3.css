@@ -1,0 +1,17 @@
+aside{
+    background-color: coral;
+}
+nav{
+background-color: cornflowerblue;
+}
+main{
+    background-color: darkcyan;
+}
+footer{
+    background-color: darkorchid;
+}
+
+
+@media (min-width: 768px) { 
+            
+}

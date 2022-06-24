@@ -1,0 +1,18 @@
+header{
+    background-color: darkturquoise;
+}
+ main{
+     background-color: darkviolet;
+ }
+aside{
+    background-color: dodgerblue;
+}
+section{
+    background-color: fuchsia;
+}
+footer{
+    background-color: grey;
+}
+
+@media (min-width: 768px) {
+}

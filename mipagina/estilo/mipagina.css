@@ -1,8 +1,52 @@
-nav{
-    background-color: rgb(176, 253, 227);
-}
-main{
-    background-color: rgb(203, 163, 240);
-}
 body{
+  background-color: aliceblue;
 }
+
+nav{
+    background-color: rgb(226, 228, 227);
+    padding: 5%;
+    margin-bottom: 30px;
+    
+}
+
+h1{
+  text-decoration-line: underline;
+  text-align: center;
+}
+h2{
+  color:rgb(87, 85, 85);
+  text-align: center;
+}
+
+article img{
+   width: 100%;
+   height: auto;
+ }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: gray;
+  }
+  
+  article:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+

@@ -1,9 +1,57 @@
-nav{
-    background-color: rgb(176, 212, 253);
+nav {
+  background-color: rgb(233, 234, 235);
+  padding: 5%;
+  text-align: center;
 }
-header{
-    background-color: rgb(252, 253, 198);
+
+header {
+  background-color: rgb(247, 185, 228);
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 4%;
 }
-main{
-    background-color: rgb(247, 185, 228);
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: rgb(159, 232, 250);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(233, 234, 235);
+}
+
+.margen {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+a:visited {
+  color: rgb(8, 8, 8);
+}
+
+
+
+a {
+  margin-right: 30px;
+}
+
+h3{
+  color: rgb(117, 117, 117);
 }
